@@ -1,6 +1,7 @@
 package clonerx.internal.util;
 
 import clonerx.Subscription;
+import rx.exceptions.Exceptions;
 
 import java.util.ArrayList;
 import java.util.Arrays;
