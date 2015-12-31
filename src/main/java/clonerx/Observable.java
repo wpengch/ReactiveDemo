@@ -29,7 +29,7 @@ public class Observable<T> {
     }
 
     final OnSubscribe<T> onSubscribe;
-    private static final RxJavaObservableExecutionHook hook = RxJavaPlugins
+//    private static final RxJavaObservableExecutionHook hook = RxJavaPlugins
 
     protected Observable(OnSubscribe<T> f) {
         this.onSubscribe = f;
