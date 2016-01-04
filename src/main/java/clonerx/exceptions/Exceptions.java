@@ -1,10 +1,6 @@
 package clonerx.exceptions;
 
-import rx.Observer;
-import rx.exceptions.CompositeException;
-import rx.exceptions.OnErrorFailedException;
-import rx.exceptions.OnErrorNotImplementedException;
-import rx.exceptions.OnErrorThrowable;
+import clonerx.Observer;
 
 import java.util.HashSet;
 import java.util.List;
@@ -12,6 +8,7 @@ import java.util.Set;
 
 /**
  * Created by 王鹏超 on 2015-12-31-0031.
+ * 异常的辅助类
  */
 public final class Exceptions {
     private Exceptions() {
